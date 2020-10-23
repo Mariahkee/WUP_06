@@ -24,6 +24,19 @@ SH_0$: The null hypothesis is that there is no relationship between weather one 
 SH_A$:The alternative hypothesis is that there is a relationship between weather one believs in the bigbang theory and one believes in a post life
 
 
+
+
+
+
+#Plot Bar Plots
+
+```{r}
+barchartGC(~BIGBANG + POSTLIFE,data=GSS)
+barchartGC(~BIGBANG + POSTLIFE,data=GSS, type="percent")
+
+```
+
+
 # Methods
 
 We are going to use the cat~cat template for this assignment because we have categorical information.
