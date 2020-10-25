@@ -24,10 +24,6 @@ SH_0$: The null hypothesis is that there is no relationship between weather one 
 SH_A$:The alternative hypothesis is that there is a relationship between weather one believs in the bigbang theory and one believes in a post life
 
 
-
-
-
-
 #Plot Bar Plots
 
 ```{r}
